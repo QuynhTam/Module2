@@ -2,8 +2,8 @@ package Fan_BT;
 
 public class FanExecute {
     public static void main(String[] args) {
-        Fan fan1=new Fan();
-        Fan fan2=new Fan();
+        Fan fan1 = new Fan();
+        Fan fan2 = new Fan();
         fan1.setSpeed(3);
         fan1.setRadius(10);
         fan1.setColor("Yellow");
@@ -12,8 +12,8 @@ public class FanExecute {
         fan2.setRadius(5);
         fan2.setColor("Blue");
         fan2.setOn(false);
-        System.out.println(fan1.toString());
-        System.out.println(fan2.toString());
+        System.out.println("fan1 = " + fan1.toString());
+        System.out.println("fan2 = " + fan2.toString());
 
     }
 }
