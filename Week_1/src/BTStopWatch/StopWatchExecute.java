@@ -10,7 +10,7 @@ public class StopWatchExecute {
         sw.start();
         selectionSort(array);
         sw.stop();
-        System.out.println("Thời gian chạy hết chương trình là : " + sw.getElapsedTime()+" ms");
+        System.out.println("Thời gian chạy hết chương trình là : " + sw.getElapsedTime() + " ms");
         for (int arr : array) {
             System.out.print(arr + " ");
         }

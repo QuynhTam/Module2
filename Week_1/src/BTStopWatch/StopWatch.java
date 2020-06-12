@@ -13,23 +13,22 @@ public class StopWatch {
     }
 
     public long getStartTime() {
-        return startTime;
+        return this.startTime;
     }
 
     public long getStopTime() {
-        return stopTime;
+        return this.stopTime;
     }
 
     public void start() {
-        startTime = System.currentTimeMillis();
+        this.startTime = System.currentTimeMillis();
     }
 
     public void stop() {
-        stopTime = System.currentTimeMillis();
+        this.stopTime = System.currentTimeMillis();
     }
 
     public long getElapsedTime() {
-        long result = stopTime - startTime;
-        return result;
+        return stopTime - startTime;
     }
 }
