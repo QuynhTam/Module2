@@ -56,7 +56,7 @@ public class Triangle extends Shapes {
     }
 
     public double getPerimeter() {
-        double p = (this.getSide1() + this.side2 + this.getSide3()) / 2;
+        double p = (this.getSide1() + this.getSide2() + this.getSide3()) / 2;
         return p;
     }
 
