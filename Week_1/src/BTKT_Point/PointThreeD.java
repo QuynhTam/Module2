@@ -20,16 +20,12 @@ public class PointThreeD extends PointTwoD {
     }
 
     public void setXYZ(float x, float y, float z) {
-        this.setX(x);
-        this.setY(y);
+        super.setXY(x, y);
         this.setZ(z);
     }
 
     public float[] getXYZ() {
-        float[] XYZ = new float[3];
-        XYZ[0] = this.getX();
-        XYZ[1] = this.getY();
-        XYZ[2] = this.getZ();
+        float[] XYZ = {super.getX(), super.getY(), this.getZ()};
         return XYZ;
     }
 

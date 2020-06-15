@@ -32,14 +32,10 @@ public class PointTwoD {
         this.setX(x);
         this.setY(y);
     }
-
     public float[] getXY() {
-        float[] XY = new float[2];
-        XY[0] = this.getX();
-        XY[1] = this.getY();
+        float[] XY = {this.x,this.y};
         return XY;
     }
-
     @Override
     public String toString() {
         return "PointTwoD " +
