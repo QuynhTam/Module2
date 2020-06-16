@@ -1,5 +1,7 @@
 package BTKT_Point;
 
+import java.util.Arrays;
+
 public class PointThreeD extends PointTwoD {
     private float z = 0f;
 
@@ -31,6 +33,6 @@ public class PointThreeD extends PointTwoD {
 
     @Override
     public String toString() {
-        return "PointThreeD " + super.toString() + "z= " + z + " PointThreeD is subclass of PointTwoD";
+        return "PointThreeD " + Arrays.toString(getXYZ()) + " PointThreeD is subclass of PointTwoD";
     }
 }

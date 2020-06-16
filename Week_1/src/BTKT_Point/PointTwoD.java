@@ -1,5 +1,8 @@
 package BTKT_Point;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class PointTwoD {
     private float x = 0f;
     private float y = 0f;
@@ -32,14 +35,14 @@ public class PointTwoD {
         this.setX(x);
         this.setY(y);
     }
+
     public float[] getXY() {
-        float[] XY = {this.x,this.y};
+        float[] XY = {this.x, this.y};
         return XY;
     }
+
     @Override
     public String toString() {
-        return "PointTwoD " +
-                "x= " + x +
-                ", y= " + y;
+        return "PointTwoD " + Arrays.toString(getXY());
     }
 }
