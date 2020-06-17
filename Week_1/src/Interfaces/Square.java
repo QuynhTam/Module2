@@ -22,7 +22,7 @@ public class Square extends Rectangle {
     }
 
     public void setSide(double side) {
-        setWidth(side);
+    setWidth(side);
         setHeight(side);
     }
 
