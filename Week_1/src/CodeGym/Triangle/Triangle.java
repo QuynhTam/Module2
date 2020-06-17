@@ -51,12 +51,12 @@ public class Triangle extends Shapes {
         double a = this.getSide1();
         double b = this.getSide2();
         double c = this.getSide3();
-        double p = this.getPerimeter();
+        double p = this.getPerimeter()/2;
         return Math.sqrt(p * (p - a) * (p - b) * (p - c));
     }
 
     public double getPerimeter() {
-        double p = (this.getSide1() + this.getSide2() + this.getSide3()) / 2;
+        double p = (this.getSide1() + this.getSide2() + this.getSide3());
         return p;
     }
 
