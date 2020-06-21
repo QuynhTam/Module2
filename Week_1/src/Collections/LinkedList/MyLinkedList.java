@@ -27,12 +27,13 @@ public class MyLinkedList {
     public void add(int index, Object data) {
         Node temp = head;
         Node holder;
+        Node node = new Node(data);
         for (int i = 0; i < index - 1 && temp.next != null; i++) {
             temp = temp.next;
         }
         holder = temp.next;
-        temp.next = new Node(data);
-        temp.next.next = holder;
+        temp.next = node;
+        node.next = holder;
         numNodes++;
 
     }
@@ -44,12 +45,12 @@ public class MyLinkedList {
         numNodes++;
     }
 
-    public Node get(int index) {
+    public Object get(int index) {
         Node temp = head;
         for (int i = 0; i < index; i++) {
             temp = temp.next;
         }
-        return temp;
+        return  temp.data;
     }
 
     public void printList() {

@@ -109,7 +109,8 @@ public class ArrayList<E> {
     //
     public boolean add(E element) {
         ensureCapacity();
-        elements[size ] = element;
+        elements[size] = element;
+        size++;
         return true;
     }
 }
