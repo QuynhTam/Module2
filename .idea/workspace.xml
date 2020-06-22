@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a71fb7a8-3120-4793-942b-4a67e6dbf17f" name="Default Changelist" comment="" />
+    <list default="true" id="a71fb7a8-3120-4793-942b-4a67e6dbf17f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Week_3/src/StackArray/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_3/src/StackArray/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_3/src/stack/GenericStackClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week_3/src/myStack/GenericStackClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_3/src/stack/MyGenericStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week_3/src/myStack/MyGenericStack.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,13 +66,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.maintesst">
+  <component name="RunManager" selected="Application.QueueClient">
     <configuration name="GenericStackClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.GenericStackClient" />
+      <option name="MAIN_CLASS_NAME" value="myStack.GenericStackClient" />
       <module name="Week_3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stack.*" />
+          <option name="PATTERN" value="myStack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,6 +86,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackArray.MainTest" />
+      <module name="Week_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="StackArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,23 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AbsoluteNumberCalculatorTest.findAbsolute3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Module2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AbsoluteNumberCalculatorTest" />
-      <option name="METHOD_NAME" value="findAbsolute3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.maintesst" />
         <item itemvalue="Application.QueueClient" />
+        <item itemvalue="Application.MainTest" />
+        <item itemvalue="Application.maintesst" />
         <item itemvalue="Application.GenericStackClient" />
         <item itemvalue="Application.LinkedListQueueClient" />
-        <item itemvalue="JUnit.AbsoluteNumberCalculatorTest.findAbsolute3" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +164,7 @@
       <workItem from="1592756556494" duration="5331000" />
       <workItem from="1592794330593" duration="99000" />
       <workItem from="1592797714242" duration="654000" />
-      <workItem from="1592805093308" duration="292000" />
+      <workItem from="1592805093308" duration="3497000" />
     </task>
     <task id="LOCAL-00001" summary="[Thực hành] Tìm giá trị tuyệt đối">
       <created>1592468247755</created>
@@ -192,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592805261966</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[Optional] [Thực hành] Triển khai Queue sử dụng mảng">
+      <created>1592805624147</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592805624147</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,10 +238,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1592471150208" />
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1592798146476">
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1592806407024">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592798146476" />
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592806407024" />
     <state x="511" y="272" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1592805103774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -234,38 +250,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592540756073" />
-    <state width="1487" height="207" key="GridCell.Tab.0.bottom" timestamp="1592798406046">
+    <state width="1487" height="259" key="GridCell.Tab.0.bottom" timestamp="1592808495370">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592798406046" />
-    <state width="1487" height="207" key="GridCell.Tab.0.center" timestamp="1592798406046">
+    <state width="1487" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592808495370" />
+    <state width="1487" height="259" key="GridCell.Tab.0.center" timestamp="1592808495370">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592798406046" />
-    <state width="1487" height="207" key="GridCell.Tab.0.left" timestamp="1592798406046">
+    <state width="1487" height="259" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592808495370" />
+    <state width="1487" height="259" key="GridCell.Tab.0.left" timestamp="1592808495370">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592798406046" />
-    <state width="1487" height="207" key="GridCell.Tab.0.right" timestamp="1592798406046">
+    <state width="1487" height="259" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592808495370" />
+    <state width="1487" height="259" key="GridCell.Tab.0.right" timestamp="1592808495370">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592798406046" />
-    <state width="1487" height="259" key="GridCell.Tab.1.bottom" timestamp="1592759187059">
+    <state width="1487" height="259" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592808495370" />
+    <state width="1487" height="259" key="GridCell.Tab.1.bottom" timestamp="1592808495370">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="259" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592759187059" />
-    <state width="1487" height="259" key="GridCell.Tab.1.center" timestamp="1592759187059">
+    <state width="1487" height="259" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592808495370" />
+    <state width="1487" height="259" key="GridCell.Tab.1.center" timestamp="1592808495370">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="259" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592759187059" />
-    <state width="1487" height="259" key="GridCell.Tab.1.left" timestamp="1592759187059">
+    <state width="1487" height="259" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592808495370" />
+    <state width="1487" height="259" key="GridCell.Tab.1.left" timestamp="1592808495370">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="259" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592759187059" />
-    <state width="1487" height="259" key="GridCell.Tab.1.right" timestamp="1592759187059">
+    <state width="1487" height="259" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592808495370" />
+    <state width="1487" height="259" key="GridCell.Tab.1.right" timestamp="1592808495370">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="259" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592759187059" />
+    <state width="1487" height="259" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592808495370" />
     <state x="540" y="218" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592467948636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

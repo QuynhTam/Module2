@@ -1,4 +1,4 @@
-package stack;
+package myStack;
 
 public class GenericStackClient {
 
