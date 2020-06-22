@@ -24,7 +24,9 @@ public class MyStack {
         if (isEmpty()) {
             System.out.println("không có gì để xoá");
         }
-        return arr[index--];
+        int temp = arr[index - 1];
+        index--;
+        return temp;
     }
 
     public int size() {
