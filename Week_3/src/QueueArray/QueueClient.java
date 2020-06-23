@@ -4,7 +4,7 @@ public class QueueClient {
     public static void main(String[] args) {
         MyQueue queue = new MyQueue(4);
         queue.enQueue(4);
-        queue.deQueue();
+//        queue.deQueue();
         queue.enQueue(56);
         queue.enQueue(2);
         queue.enQueue(67);

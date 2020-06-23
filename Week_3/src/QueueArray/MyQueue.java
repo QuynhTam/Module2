@@ -55,11 +55,13 @@ public class MyQueue {
 //                System.out.println("Pop operation done ! removed: " + queueArr[head - 1]);
 //            }
             int temp = queueArr[0];
-            for (int i = 0; i < currentSize; i++) {
+            for (int i = 0; i < currentSize - 1; i++) {
                 queueArr[i] = queueArr[i + 1];
             }
+            queueArr[currentSize - 1] = 0;
             System.out.println("Pop operation done ! removed: " + temp);
             currentSize--;
+            tail--;
         }
     }
 }
