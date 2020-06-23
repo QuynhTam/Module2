@@ -33,15 +33,15 @@ public class StudentManager {
     }
 
     public void search() {
-        System.out.println("1. id");
-        System.out.println("2. name");
-        System.out.println("3. age");
-        System.out.println("Choice : ");
+        System.out.printf("1. id");
+        System.out.printf(" 2. name");
+        System.out.printf(" 3. age");
+        System.out.printf(" - Choice : ");
         int choice = sc.nextInt();
         boolean check = true;
         switch (choice) {
             case 1:
-                System.out.println("Enter id :");
+                System.out.printf("Enter id :");
                 int id = sc.nextInt();
                 for (int i = 0; i < studentList.size(); i++) {
                     if (id == studentList.get(i).getId()) {
@@ -53,10 +53,10 @@ public class StudentManager {
                     System.out.println("Not existed");
                 break;
             case 2:
-                System.out.println("Enter name :");
+                System.out.printf("Enter name :");
                 String name = sc.next();
                 for (int i = 0; i < studentList.size(); i++) {
-                    if (name == studentList.get(i).getName()) {
+                    if (name.equals(studentList.get(i).getName())) {
                         System.out.println(studentList.get(i).toString());
                         check = false;
                     }
@@ -65,7 +65,7 @@ public class StudentManager {
                     System.out.println("Not existed");
                 break;
             case 3:
-                System.out.println("Enter age :");
+                System.out.printf("Enter age :");
                 int age = sc.nextInt();
                 for (int i = 0; i < studentList.size(); i++) {
                     if (age == studentList.get(i).getAge()) {
