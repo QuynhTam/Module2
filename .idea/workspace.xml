@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a71fb7a8-3120-4793-942b-4a67e6dbf17f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_3/src/SoSanh/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_3/src/SoSanh/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_3/src/Comparable/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week_3/src/Comparable/StudentManager.java" afterDir="false" />
-    </list>
+    <list default="true" id="a71fb7a8-3120-4793-942b-4a67e6dbf17f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -165,7 +160,7 @@
       <workItem from="1592797714242" duration="654000" />
       <workItem from="1592805093308" duration="8458000" />
       <workItem from="1592815183852" duration="5015000" />
-      <workItem from="1592877329980" duration="22014000" />
+      <workItem from="1592877329980" duration="22402000" />
     </task>
     <task id="LOCAL-00001" summary="[Thực hành] Tìm giá trị tuyệt đối">
       <created>1592468247755</created>
@@ -244,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592899030757</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="[Thực hành] Sắp xếp với Comparable và Comparator">
+      <created>1592905605243</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1592905605243</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +273,8 @@
     <MESSAGE value="queue" />
     <MESSAGE value="Kiem Tra" />
     <MESSAGE value="[Thực hành] Sử dụng HashMap, LinkedHashMap, TreeMap để lưu danh sách sinh viên theo độ tuổi" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Thực hành] Sử dụng HashMap, LinkedHashMap, TreeMap để lưu danh sách sinh viên theo độ tuổi" />
+    <MESSAGE value="[Thực hành] Sắp xếp với Comparable và Comparator" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Thực hành] Sắp xếp với Comparable và Comparator" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592471150208">
@@ -294,22 +297,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592540756073" />
-    <state width="1487" height="207" key="GridCell.Tab.0.bottom" timestamp="1592905144043">
+    <state width="1487" height="207" key="GridCell.Tab.0.bottom" timestamp="1592905606896">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592905144043" />
-    <state width="1487" height="207" key="GridCell.Tab.0.center" timestamp="1592905144043">
+    <state width="1487" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592905606896" />
+    <state width="1487" height="207" key="GridCell.Tab.0.center" timestamp="1592905606896">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592905144043" />
-    <state width="1487" height="207" key="GridCell.Tab.0.left" timestamp="1592905144043">
+    <state width="1487" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592905606896" />
+    <state width="1487" height="207" key="GridCell.Tab.0.left" timestamp="1592905606896">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592905144043" />
-    <state width="1487" height="207" key="GridCell.Tab.0.right" timestamp="1592905144043">
+    <state width="1487" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592905606896" />
+    <state width="1487" height="207" key="GridCell.Tab.0.right" timestamp="1592905606896">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592905144043" />
+    <state width="1487" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592905606896" />
     <state width="1487" height="221" key="GridCell.Tab.1.bottom" timestamp="1592902484200">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
