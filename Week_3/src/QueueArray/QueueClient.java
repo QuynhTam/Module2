@@ -8,8 +8,8 @@ public class QueueClient {
         queue.enQueue(56);
         queue.enQueue(2);
         queue.enQueue(67);
-        queue.deQueue();
-        queue.deQueue();
+//        queue.deQueue();
+//        queue.deQueue();
         queue.enQueue(24);
         queue.deQueue();
         queue.enQueue(98);
