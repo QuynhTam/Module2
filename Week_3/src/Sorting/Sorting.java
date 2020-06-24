@@ -2,14 +2,15 @@ package Sorting;
 
 public class Sorting {
     public static void main(String[] args) {
-        int[] array = {2, 3, 2, 5, 6, 20, 1, -2, 3, 14, 12};
+//        int[] array = {2, 3, 2, 5, 6, 20, 1, -2, 3, 14, 12};
+        int[] array={1,2,4,3};
         for (int x : array) {
             System.out.printf("%d ", x);
         }
         System.out.println();
-//        bubbleSort(array);
+        bubbleSort(array);
 //        selectionSort(array);
-        insertionSort(array);
+//        insertionSort(array);
         for (int x : array) {
             System.out.printf("%d ", x);
         }

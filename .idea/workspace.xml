@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a71fb7a8-3120-4793-942b-4a67e6dbf17f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week_3/src/Sorting/Sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_3/src/BinaryConvert/BinaryConvert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_3/src/Sorting/Sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week_3/src/Sorting/Sorting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
@@ -66,7 +67,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sorting">
+  <component name="RunManager" selected="Application.BinaryConvert">
+    <configuration name="BinaryConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryConvert.BinaryConvert" />
+      <module name="Week_3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BinaryConvert.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedList.Main" />
       <module name="Week_3" />
@@ -86,19 +100,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="SoSanh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Mains (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="KiemTra.Mains" />
-      <module name="Week_3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KiemTra.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryConvert" />
         <item itemvalue="Application.Sorting" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.MainTest (1)" />
         <item itemvalue="Application.TestMap" />
-        <item itemvalue="Application.Mains (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +170,7 @@
       <workItem from="1592877329980" duration="25800000" />
       <workItem from="1592915899619" duration="6113000" />
       <workItem from="1592930035004" duration="5396000" />
-      <workItem from="1592963928999" duration="6529000" />
+      <workItem from="1592963928999" duration="11854000" />
     </task>
     <task id="LOCAL-00001" summary="[Thực hành] Tìm giá trị tuyệt đối">
       <created>1592468247755</created>
@@ -269,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592926182559</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[Thực hành] Cài đặt thuật toán sắp xếp chọn ,chèn,nổi bọt">
+      <created>1592974061237</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1592974061237</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +306,8 @@
     <MESSAGE value="[Thực hành] Sử dụng HashMap, LinkedHashMap, TreeMap để lưu danh sách sinh viên theo độ tuổi" />
     <MESSAGE value="[Thực hành] Sắp xếp với Comparable và Comparator" />
     <MESSAGE value="[Bài tập] Luyện tập sử dụng ArrayList, LinkedList trong Java Collection Framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Bài tập] Luyện tập sử dụng ArrayList, LinkedList trong Java Collection Framework" />
+    <MESSAGE value="[Thực hành] Cài đặt thuật toán sắp xếp chọn ,chèn,nổi bọt" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Thực hành] Cài đặt thuật toán sắp xếp chọn ,chèn,nổi bọt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592471150208">
@@ -321,42 +330,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592540756073" />
-    <state width="1487" height="218" key="GridCell.Tab.0.bottom" timestamp="1592970655027">
+    <state width="1487" height="218" key="GridCell.Tab.0.bottom" timestamp="1592989697649">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="218" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592970655027" />
-    <state width="1487" height="218" key="GridCell.Tab.0.center" timestamp="1592970655027">
+    <state width="1487" height="218" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592989697649" />
+    <state width="1487" height="218" key="GridCell.Tab.0.center" timestamp="1592989697648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="218" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592970655027" />
-    <state width="1487" height="218" key="GridCell.Tab.0.left" timestamp="1592970655027">
+    <state width="1487" height="218" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592989697648" />
+    <state width="1487" height="218" key="GridCell.Tab.0.left" timestamp="1592989697647">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="218" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592970655027" />
-    <state width="1487" height="218" key="GridCell.Tab.0.right" timestamp="1592970655027">
+    <state width="1487" height="218" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592989697647" />
+    <state width="1487" height="218" key="GridCell.Tab.0.right" timestamp="1592989697649">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="218" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592970655027" />
-    <state width="1487" height="204" key="GridCell.Tab.1.bottom" timestamp="1592970434958">
+    <state width="1487" height="218" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592989697649" />
+    <state width="1487" height="204" key="GridCell.Tab.1.bottom" timestamp="1592988521144">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="204" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592970434958" />
-    <state width="1487" height="204" key="GridCell.Tab.1.center" timestamp="1592970434958">
+    <state width="1487" height="204" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592988521144" />
+    <state width="1487" height="204" key="GridCell.Tab.1.center" timestamp="1592988521143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="204" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592970434958" />
-    <state width="1487" height="204" key="GridCell.Tab.1.left" timestamp="1592970434958">
+    <state width="1487" height="204" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592988521143" />
+    <state width="1487" height="204" key="GridCell.Tab.1.left" timestamp="1592988521143">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="204" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592970434958" />
-    <state width="1487" height="204" key="GridCell.Tab.1.right" timestamp="1592970434958">
+    <state width="1487" height="204" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592988521143" />
+    <state width="1487" height="204" key="GridCell.Tab.1.right" timestamp="1592988521144">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1487" height="204" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592970434958" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1592964217039">
+    <state width="1487" height="204" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592988521144" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1592981024794">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592964217039" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1592981024794" />
     <state x="540" y="218" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592467948636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
