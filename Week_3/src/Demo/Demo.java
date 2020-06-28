@@ -2,7 +2,7 @@ package Demo;
 
 public class Demo {
     public static void main(String[] args) {
-        String[] a = {"abc", "def", "ghd"};
+        String[] a = {"abc", "defs", "ghd"};
         String[] b = {"fed", "dhgf", "cba"};
         System.out.println(femat(a, b));
         femat(a, b);
